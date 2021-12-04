@@ -1,0 +1,328 @@
+body {
+    background-image: url('./_images/japan.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}   
+.container {
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 1366px;
+    margin: 0px auto;
+    /* border-radius: 15px; */
+    box-shadow: 0px 0px 3px #333333;
+}
+.rowBanner {
+    background-image: url('./_images/logobanner.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    box-shadow: 0px 0px 1px black;
+    padding: 15.5px;
+}
+.siteName {
+    padding-top: 60px;
+    text-align: center;
+}
+.siteNameLink, .siteNameLink:hover {
+    text-decoration: none;
+    color: #000000;
+}
+.navBox {
+    margin: 10px 0px;
+}
+.navText {
+    background-color: rgba(233, 221, 221, 0.7);
+    text-align: center;
+    padding: 15px 0px;
+}
+.center {
+    margin: 0px auto;
+    display: block;
+}
+.floatingTitle {
+    padding-top: 20px;
+}
+footer {
+    text-align: center;
+    background-color: rgba(233, 221, 221, 0.7)f;
+    padding: 5px 0px;
+}
+.footer {
+    margin: 5px 0px;
+}
+a, a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Login Box */
+.loginBox {
+    padding: 3px;
+    position: flex;
+    background-image: url('./_images/loginbackground4.png');
+    background-size: cover;
+    text-align: center;
+    box-shadow: 0px 0px 2px black;
+}
+
+.loginBox input[type = "text"], .loginBox input[type = "password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #a67b5b;
+    padding: 5px 2px;
+    width: 130px;
+    outline: none;
+    color: #666362;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.loginBox input[type = "text"]:focus, .loginBox input[type = "password"]:focus {
+    width: 200px;
+    border-color: #654321;
+}
+.loginBox input[type = "submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #cd5c5c;
+    padding: 3px 10px;
+    outline: none;
+    color: rgb(90, 81, 81);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.loginBox input[type = "submit"]:hover {
+    background: #fdab9f;
+}
+.loginBox input[type = "button"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 14px;
+    border: 2px solid #cd5c5c;
+    padding: 5px 15px;
+    outline: none;
+    color: rgb(90, 81, 81);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: -1px;
+}
+.loginBox input[type = "button"]:hover {
+    background: #fdab9f;
+}
+
+/* Search Bar */
+.searchBar input[type = "text"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 2px solid #d69191;
+    padding: 3px 10px;
+    outline: none;
+    color: rgb(90, 81, 81);
+    transition: 0.25s;
+    height: 25px;
+    width: 220px;
+}
+.searchBar input[type = "text"]:focus {
+    width: 240px;
+    border-color: #654321;
+}
+.searchBar input[type = "submit"] {
+    border: 0;
+    background: none;
+    display: flex;
+    margin: 10px auto;
+    border: 2px solid #d69191;
+    padding: 1px 11px;
+    width: 50px;
+    outline: none;
+    color: rgb(90, 81, 81);
+    font-weight: bold;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    transform: translate(145px, -40px); 
+}
+.searchBar input[type = "submit"]:hover {
+    background: #fdab9f;
+    border-color: #cc6666;
+}
+
+/* ANIME PAGE */
+.animeTitle {
+    text-align: left;
+}
+.animeImg {
+    float: right;
+}
+.animeStatus {
+    font-weight: bold;
+}
+.opening {
+    text-align: center;
+}
+
+/* PROFILE PAGE */
+/* .profileImg {
+    float: right;
+    outline: solid 3px #000000;
+} */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+/* Dropdown hover */
+.dropbtn {
+    background-color: rgb(238, 238, 238);
+    color: black;
+    font-family: inherit;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+.dropdown-content a:hover { 
+    background-color: #ddd;
+} 
+.dropdown:hover .dropdown-content { 
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: rgb(238, 238, 238);
+}
+
+/* Scrollbar */
+.horizontal-scroll > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.horizontal-scroll > .row > .col-2 {
+    display: inline-block;
+    float: none;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    cursor: pointer;
+}
+::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, rgb(223, 205, 208) 0%, #ffb7c5 99%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+}
+
+/* Sign Up */
+.signUp {
+    padding: 3px;
+    position: flex;
+    background: url('./_images/loginbackground4.png');
+    background-size: cover;
+    text-align: center;
+    box-shadow: 0px 0px 2px black;
+}
+.signUp input[type = "text"], .signUp input[type = "email"], .signUp input[type = "password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    border: 3px solid #d98880;
+    padding: 5px 2px;
+    width: 250px;
+    outline: none;
+    color: #666362;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.signUp input[type = "text"]:focus, .signUp input[type = "email"]:focus, .signUp input[type = "password"]:focus {
+    width: 350px;
+    border-color: #ffcccc;
+}
+.signUp input[type = "submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid #cc6666;
+    padding: 3px 10px;
+    width: 100px;
+    outline: none;
+    color: rgb(90, 81, 81);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.signUp input[type = "submit"]:hover {
+    background: #ffcccc;
+}
+.signUp input[type = "button"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 14px;
+    border: none;
+    padding: 5px 15px;
+    outline: none;
+    color: rgb(90, 81, 81);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: -1px;
+}
+.signUp input[type = "button"]:hover {
+    background: #ffcccc;
+}
